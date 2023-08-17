@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    height: 100vh;
+    width:100%;
+    background: url(./image/img.jpg);
+    background-size: cover;
+}
+.back{
+    background-color: white;
+    width: 30%;
+    height:330px;
+    justify-content: center;
+    display: flex;
+position: absolute;
+border-radius: 50px;
+left: 55%;
+top: 20%;
+border-radius: 10px;
+box-shadow: 1px 2px 5px rgb(48, 47, 47)
+
+
+}
+
+h1{
+
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.first{
+    background-color: white;
+    margin-top: 25px;
+    height: 50px;
+    width: 400px;
+    margin-left: 15px;
+    text-align: start;
+    padding-left: 15px;
+    border: none;
+    border:2px solid rgb(223, 221, 221);
+    border-radius: 5px;
+}
+.second{
+    background-color: white;
+    margin-top: 25px;
+    height: 50px;
+    width: 400px;
+    margin-left: 15px;
+    text-align: start;
+    padding-left: 15px;
+    border: none;
+    border-radius: 5px;
+    border:2px solid rgb(223, 221, 221);
+    /* margin-bottom: 0px; */
+}
+
+.butt{
+    margin-left: 20px;
+    margin-top: 39px;
+    margin-top: 25px;
+    width: 400px;
+ 
+    /* display: flex; */
+    /* justify-content: end; */
+}
+.aa{
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: 15px;
+
+}
+.aa:hover{
+    text-decoration: underline;
+
+}
+.face{
+
+    padding-top: 15%;
+    margin-left: 70px;
+}
+.pp{
+    word-spacing: 3px;
+    margin-left: 167px;
+}
+hr{
+    position: absolute;
+  width: 90%;
+  left: 20px; 
+}
+.buttt{
+    position: relative;
+    top: 40px;
+    left: 120px;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(66,183,42);
+    border: none;
+    
+}
+.brand{
+    position: absolute;
+    left: 850px;
+    bottom: 155px;
+}
+.parah{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a-a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.a-a:hover{
+    text-decoration: underline;
+    word-spacing: 2px;
+}
+.icon{
+    float: right;
+}

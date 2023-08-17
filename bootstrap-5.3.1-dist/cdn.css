@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav-bar{
+    margin-left: 100px;
+    justify-content: center;
+    display: flex;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   }
+   #btn{
+       border-radius: 50px;
+       padding: 5px 20px 10px;
+       border: 1px solid rgb(240, 234, 234);
+       background: transparent;
+       margin-left: 90px;
+   }
+   #ng{
+       padding-right: 7px;
+   }
+   .child{
+       margin-left: 100px;
+   }
