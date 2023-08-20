@@ -1,92 +1,120 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.bodyy{
-    background-color: white;
-    width: 25%;
-    height:400px;
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    /* overflow: hidden; */
+}
+.card{
+    box-shadow: 0px 4px 8px  0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.container-for-all{
+    max-width: 100%;
+    height: 80vh;
+    background-color: rgb(240,242,245);
+    /* background-color: black; */
+}
+.page-container{
+   height: 70vh;
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    
+
+}
+.form-side{
     justify-content: center;
-    border-radius: 50px;
-    margin-left: 35%;
-    margin-top: 7%;
-    border-radius: 10px;
-    box-shadow: 1px 2px 5px rgb(48, 47, 47)
+    display: flex;
+    padding-top: 40px;
+}
 
+.p{
+    color: rgb(28,30,33);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+    font-weight: small;
 }
-h1{
-    position: absolute;
-    top: 5%;
-    left: 600px;
-    color: rgb(24,119,242);
-    font-weight: bold;
-
-}
-h4{
-    padding-top: 20px;
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 10px;
-    padding-left: 100px;
-}
-.first{
-    
-     background-color: white;
-    margin-top: 25px;
-    height: 50px;
-    width: 330px;
-    margin-left: 15px;
-    text-align: start;
-    padding-left: 15px;
-    border: none;
-    border:1px solid rgb(240, 16, 16);
-    border-radius: 5px; 
-    
-}
-.second{
-    background-color: white;
-    margin-top: 11px;
-    height: 50px;
-    width: 330px;
-    margin-left: 15px;
-    text-align: start;
-    padding-left: 15px;
-    border: none;
-    border:2px solid rgb(223, 221, 221);
-    border-radius: 5px; 
-
-}
-.butt{
-    margin-left: 20px;
-    margin-top: 39px;
-    margin-top: 25px;
-    width: 330px;
-}
-.a-a{
-
-    text-decoration: none;
-    font-weight:100;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 100px;
-
-}
-p{
-    color: red;
-    margin-left: 15px;
+.text1{
     font-size: small;
-    font-weight: light;
+    color: red;
+}
+.sep-text{
+    text-decoration: none;
+    color: red;
+    font-size: small;
+    font-weight: bold;
+    line-height:30px;
+    vertical-align:baseline;
+
+}
+.sep-text:hover{
+    text-decoration: underline;
+}
+.input-all{
+    width: 400px;
+    padding: 12px;
+    
+}
+
+.input{
+    background-color: white;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 40px;
+    border:1px solid red;
+    border-radius: 8px;
+    padding: 10px;
+}
+.text{
+    color: red;
+}
+
+.butt{
+    
+    width: 100%;  
+}
+
+.aa{
+    text-decoration: none;
+    margin: 15px 0px;
+    text-align: center;
+}
+.aa:hover{
+    text-decoration: underline;
+    
+}
+
+.facebook-logo{
+    color: rgb(24,119,242);
+    line-height:30px;
+    font-family:Helvetica Arial sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    justify-content: center;
+    display: flex;
+}
+
+.a-a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 .a-a:hover{
     text-decoration: underline;
-   }
-   span{
-    text-decoration: none;
-   }
-   span{
-    text-decoration: underline;
-    color: red;
-   }
-#link{
-    text-decoration: underline;
+    word-spacing: 2px;
+}
+.center-wrapper{
+    justify-content: center;
+    display: flex;
 }
